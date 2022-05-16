@@ -11,7 +11,7 @@ public class HelloController {
 	
 	@GetMapping	
 	public String hello() {
-		return "Hello Server is up and running";
+		return "Hello Server is up and running!!";
 	}
 	@RequestMapping(value ="/homepage", method =  RequestMethod.GET)
     public String showHomePage() {
